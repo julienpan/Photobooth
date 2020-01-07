@@ -58,8 +58,6 @@ class MyModel extends Model {
 	async initialize(mvc) {
 		super.initialize(mvc);
 
-		this.maxWidth = 980;
-
 		// tab with different filter
 		this.filters = [ { 
 			name: "Reset",
