@@ -20,6 +20,8 @@ https://nodejs.org/en/download/
 Or you can install it from the command line by typing this command on the terminal :
 
 $ sudo apt-get install npm
+
+
 Demonstration :
 
 Open a new terminal from hello-node folder and type :
