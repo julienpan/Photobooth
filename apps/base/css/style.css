@@ -1,0 +1,80 @@
+html {
+
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	height: 100%;
+
+	overflow: auto;
+
+	-webkit-text-size-adjust: 100%;
+	-ms-touch-action: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	font-family: helvetica;
+	font-size: 10pt;
+	background: black;
+	
+}
+
+.Video{
+	border: 1px solid orange;
+	
+}
+
+.Canvas{
+	border: 1px solid yellow;
+
+}
+
+.Btn{
+	border: 1px solid black;
+	background: linear-gradient(90deg, yellow, red);
+	padding: 10px 130px;
+	font-size: 20px;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 30%;
+	margin: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	
+}
+.Btnf{
+	border: 1px solid black;
+	background: linear-gradient(-45deg, red, yellow);
+	padding: 50px 30px;
+	font-size: 20px;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 10%;
+	margin: 5px;
+	overflow: auto;
+	position: relative;
+	
+}
+
+button:hover{
+	color:black;
+	transform: scale(1.3);
+	background: white;
+	box-shadow: 0 0 20px white, 0 0 40px orange, 0 0 100px #FE0109;
+	transition: 0.2s linear;
+	overflow:auto;
+	
+}
