@@ -180,8 +180,6 @@ class MyView extends View {
 		this.btnPhoto.removeEventListener("click", this.photoHandler);
 		this.divFilter.removeEventListener("click", this.filterHandler);
 		this.btnv.removeEventListener("click", this.getBtnvHandler);
-		this.btn.removeEventListener("click", this.getBtnHandler);
-		this.iobtn.removeEventListener("click", this.ioBtnHandler);
 	}
 
 	filterClick(event){
